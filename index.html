@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Trabalho 2 de WEB</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Arquivo de CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Icones -->
+    <script src="https://kit.fontawesome.com/43b06766f7.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="jquery-3.6.1.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="container">
+
+        <div class="row">
+
+            <!-- Logo -->
+            <div class="col-3">
+
+                <div class="header-logo">
+                    <img src="imagens/logo_game.png" class="logo">
+                </div>
+
+            </div>
+
+            <!-- Menu -->
+            <div class="col-9 col-md-6 header-container-nav">
+
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="header-menu-icon">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-times-circle"></i>
+                </label>
+
+                <nav class="nav nav-pills flex-column flex-sm-row header-menu">
+                    <a class="flex-sm-fill text-sm-center nav-link nav-dest" href="#Destaques">destaques</a>
+                    <p class="menu_separator nav-dest-sep">|</p>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#Lancamentos">lançamentos</a>
+                    <p class="menu_separator">|</p>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#Plataformas">plataformas</a>
+                    <p class="menu_separator">|</p>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#Publishers">publishers</a>                    
+                    <a class="flex-sm-fill text-sm-center nav-link nav-pesquisa" href="pesquisa.html?search=">pesquisar</a>
+                </nav>
+
+
+            </div>
+
+            <!-- Pesquisa -->
+            <div class="col-3">
+
+                <div class="caixa-pesquisa">
+                    <form>
+                        <button class="realizar_pesquisa"> <i class="fa-sharp fa-solid fa-magnifying-glass pesquisa-icone"></i> </button>
+                        <input type="text" class="texto_pesquisa" placeholder="Pesquisar games">
+                        <!-- <button class="botao_ok">Ok</button> -->
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </header>
+
+    <!-- Principal -->
+    <main class="container">
+
+        <!-- Destaques -->
+        <div class="row main-destaques" >
+
+            <div class="col-12 titulo-destaque" id="Destaques">
+
+                <h1>Destaques</h1>
+
+            </div>
+
+            <!-- data-ride="carousel" faz passar automatico. "false" tira isso -->
+            <div id="carouselExampleIndicators" class="col-12 carousel slide" data-ride="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 destaques-carousel-video">
+
+                                <iframe class="destaques-video" src="https://www.youtube.com/embed/x6oF3Jxu7X0">
+                                </iframe>
+
+                            </div>
+
+                            <div class="col-lg-5 col-12">
+
+                                <h2>God of War Ragnarök</h2>
+
+                                <p class="destaques-p-first"> <span class="destaques-caracteristicas">Sobre:</span> A decorrer de três anos após os acontecimentos do jogo anterior, 
+                                    o Fimbulwinter está chegando ao fim e está profetizado que o Ragnarök começará assim que o Fimbulwinter terminar. 
+                                    Atreus, ainda se recuperando das revelações do jogo anterior, busca respostas sobre sua identidade como Loki, 
+                                    bem como uma maneira de evitar que o Ragnarök aconteça. Para descobrir a verdade, Kratos e Atreus começaram a procurar 
+                                    por respostas, em busca do deus da guerra nórdico Týr, que anteriormente se acreditava estar morto. 
+                                    Enquanto atravessa os nove reinos, a dupla deve enfrentar novas ameaças, incluindo Thor, o enfurecido deus do trovão, 
+                                    e Freya, sua ex-aliada que busca vingança após a morte de seu filho Baldur nas mãos de Kratos. </p>
+                                <p class="destaques-carac-publ"> <span class="destaques-caracteristicas">Publisher:</span> Sony Interactive Entertainment</p>
+                                <p class="destaques-carac-lanc"> <span class="destaques-caracteristicas">Lançamento:</span> Novembro,2022 </p>
+                                <p> <span class="destaques-caracteristicas">Plataformas:</span> Playstation 4, Playstation 5 </p>
+                                <p> <span class="destaques-caracteristicas">Gênero:</span> Ação, Aventura, Hack and Slash </p>
+                                <p class="destaques-p-last"> <span class="destaques-caracteristicas">Avaliação:</span> <span class="destaques-avaliacao"> 97</span> </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 destaques-carousel-video">
+
+                                <iframe class="destaques-video" src="https://www.youtube.com/embed/GubjHz5--6M">
+                                </iframe>
+
+                            </div>
+
+                            <div class="col-lg-5 col-12">
+
+                                <h2>Overwatch 2</h2>
+
+                                <p class="destaques-p-first"> <span class="destaques-caracteristicas">Sobre:</span> Overwatch 2 é um futuro jogo eletrônico multijogador de tiro em primeira pessoa em desenvolvimento, 
+                                    publicação e distribuição pela Blizzard Entertainment. Overwatch 2 terá um enredo contínuo, focado na segunda revolta ômnica. 
+                                    Ele irá explorar quem está por trás disso. A trama irá ocorrer após o chamado de Winston ser recebido e 
+                                    atendido pelos heróis da Overwatch, como pode ser visto na cinemática criada pela Blizzard.</p>
+                                <p class="destaques-carac-publ"> <span class="destaques-caracteristicas">Publisher:</span> Blizzard Entertainment</p>
+                                <p class="destaques-carac-lanc"> <span class="destaques-caracteristicas">Lançamento:</span> Outubro,2022 </p>
+                                <p> <span class="destaques-caracteristicas">Plataformas:</span> PC, Nintendo Switch, Xbox One, Xbox Series X/S, Playstation 4 e Playstation 5 </p>
+                                <p> <span class="destaques-caracteristicas">Gênero:</span> FPS, RPG </p>
+                                <p class="destaques-p-last"> <span class="destaques-caracteristicas">Avaliação:</span> <span class="destaques-avaliacao"> 69</span> </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 destaques-carousel-video">
+
+                                <iframe class="destaques-video" src="https://www.youtube.com/embed/LsV5JLIO_ok">
+                                </iframe>
+
+                            </div>
+
+                            <div class="col-lg-5 col-12">
+
+                                <h2>Gotham Knights</h2>
+
+                                <p class="destaques-p-first"> <span class="destaques-caracteristicas">Sobre:</span> Gotham Knights é um futuro jogo RPG eletrônico 
+                                    de ação baseado no personagem da DC Comics Batman e seus personagens secundários. O jogo é ambientado em Gotham City, vários anos após 
+                                    a suposta morte do Batman. Com o DPGC corrupto após a morte de Jim Gordon, ocorre um aumento no crime e 
+                                    ilegalidade na cidade, deixando os aliados do Batman Asa Noturna, Batgirl, Robin e Capuz Vermelho como os 
+                                    únicos aptos a restaurar a justiça em Gotham e impedí-la de cair no caos. Em algum ponto no jogo, os heróis 
+                                    entrarão em conflito com a Corte das Corujas, uma sociedade secreta criminosa mais velha que a própria Gotham, 
+                                    e sua legião de assassinos manipulador, conhecidos como Talons.</p>
+                                <p class="destaques-carac-publ"> <span class="destaques-caracteristicas">Publisher:</span> Warner Bros. Interactive Entertainment</p>
+                                <p class="destaques-carac-lanc"> <span class="destaques-caracteristicas">Lançamento:</span> Outubro,2022 </p>
+                                <p> <span class="destaques-caracteristicas">Plataformas:</span> PC, Playstation 5, Xbox Series X </p>
+                                <p> <span class="destaques-caracteristicas">Gênero:</span> RPG de ação, Aventura </p>
+                                <p class="destaques-p-last"> <span class="destaques-caracteristicas">Avaliação:</span> <span class="destaques-avaliacao"> 72</span> </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 destaques-carousel-video">
+
+                                <iframe class="destaques-video" src="https://www.youtube.com/embed/Ks0tpf9uIhk">
+                                </iframe>
+
+                            </div>
+
+                            <div class="col-lg-5 col-12">
+
+                                <h2>Bayonetta 3</h2>
+
+                                <p class="destaques-p-first"> <span class="destaques-caracteristicas">Sobre:</span> Bayonetta 3 é um futuro jogo 
+                                    eletrônico de ação-aventura desenvolvido pela PlatinumGames e publicado pela Nintendo. 
+                                    Está programado para ser lançado em 28 de outubro de 2022 para Nintendo Switch. 
+                                    É o terceiro título da série Bayonetta, e a sequência de Bayonetta 2 (2014). 
+                                    Está sendo dirigido por Yusuke Miyata e produzido por Yuji Nakao, com o criador da série, Hideki Kamiya, 
+                                    atuando como diretor executivo. O jogo foi anunciado pela Nintendo e PlatinumGames em dezembro de 2017.</p>
+                                <p class="destaques-carac-publ"> <span class="destaques-caracteristicas">Publisher:</span> Nintendo</p>
+                                <p class="destaques-carac-lanc"> <span class="destaques-caracteristicas">Lançamento:</span> Outubro,2022 </p>
+                                <p> <span class="destaques-caracteristicas">Plataformas:</span> Nintendo Switch</p>
+                                <p> <span class="destaques-caracteristicas">Gênero:</span> Ação, Aventura, RPG </p>
+                                <p class="destaques-p-last"> <span class="destaques-caracteristicas">Avaliação:</span> <span class="destaques-avaliacao"> 95</span> </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Lançamentos -->
+        <div class="row main-lancamentos" id="blocoLancamento">
+
+            <!--Titulos-->
+            <div class="col-6 lancamentos-l1" id="Lancamentos">
+
+                <h1>Lançamentos</h1>
+
+            </div>
+
+            <div class="col-lg-3 col-6 lancamentos-drop">
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                      Ordem: Popularidade
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item lanc-drop-item-1" href="#">Avaliação</a>
+                      <a class="dropdown-item lanc-drop-item-2" href="#">Data Lançamento</a>
+                      <a class="dropdown-item lanc-drop-item-1" href="#">Nome</a>
+                    </div>
+                  </div>                
+
+            </div>            
+
+            <div class="col-lg-3 lancamentos-drop lancamentos-drop2">
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                      Gênero: TODOS
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item lanc-drop-item-1" href="#">Ação</a>
+                      <a class="dropdown-item lanc-drop-item-2" href="#">Aventura</a>
+                      <a class="dropdown-item lanc-drop-item-1" href="#">RPG</a>
+                      <a class="dropdown-item lanc-drop-item-2" href="#">Shooter</a>
+                    </div>
+                  </div>                
+
+            </div>                  
+
+            <!--Cards-->
+                <!-- Card atualizados dinâmicamente por funcoes.js-->
+                  
+
+            <!--Botão do Lançamentos-->
+                <!-- Dinamicamente por funcoes.js -->
+
+        
+        </div>
+
+        <!-- Plataformas -->
+        <div class="row main-plataformas">
+
+            <div class="col-12" id="Plataformas">
+
+                <h1>Plataformas</h1>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Playstation 5</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <img src="imagens/playstations_5.jpg" class="plataforma-imagem" alt="">
+                      <h6>Principais Jogos</h6>
+                      <ul>
+                        <li>Spider-Man: Miles Morales</li>
+                        <li>Demon's Souls</li>
+                        <li>Final Fantasy VII Remake</li>
+                      </ul>
+                      <a href="#" >Mais detalhes ...</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Xbox Series X/S</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <img src="imagens/xbox-series-x-series-s.jpg" class="plataforma-imagem" alt="">
+                      <h6>Principais Jogos</h6>
+                      <ul>
+                        <li>Forza Horizon 5</li>
+                        <li>Halo Infinite</li>
+                        <li>Gears 5</li>
+                      </ul>
+                      <a href="#" >Mais detalhes ...</a>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Nintendo Switch</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <img src="imagens/nintendo_switch.png" class="plataforma-imagem" alt="">
+                      <h6>Principais Jogos</h6>
+                      <ul>
+                        <li>Animal Crossing: New Horizons</li>
+                        <li>Super Smash Bros. Ultimate</li>
+                        <li>The Legend of Zelda</li>
+                      </ul>
+                      <a href="#" >Mais detalhes ...</a>
+                    </div>
+                </div>   
+            </div>            
+
+            <!--Botão da Plataformas-->
+            <div class="col-12 botao-plat">
+
+                <button type="button" class="btn btn-dark"> <i class="fa-regular fa-plus"></i> Carregar mais plataformas</button>
+
+            </div>            
+
+        </div>
+
+        <!-- Publishers -->
+        <div class="row main-publishers" id="blocoPublishers">
+
+            <div class="col-12" id="Publishers">
+
+                <h1>Publishers</h1>
+
+            </div>
+
+            <!--Cards-->
+                <!-- Card atualizados dinâmicamente por funcoes.js-->
+                  
+
+            <!--Botão da Plataformas-->
+                <!-- Dinamicamente por funcoes.js -->
+
+        </div>
+
+        <!-- Sobre -->
+        <div class="row main-sobre">
+
+            <div class="col-7">
+
+                <h1 class="title1">Sobre</h1>
+
+            </div>
+
+            <div class="col-5">
+
+                <h1 class="title2">Editorial</h1>
+
+            </div>
+
+            <div class="col-7">
+
+                <p class="sobre-sobre"> Controle na Mão é um site de notícias do mundo gamer, envolvendo jogos, curiosidades, dicas, lançamentos, críticas, recomendações e outros do universo geek. Apesar de ser apenas um trabalho prático da disciplina de Desenvolvimento de Interfaces Web, este site parcialmente dinâmico faz referências a imagens e notícias reais e, possivelmente, recentes. Este site é trabalho individual de Matheus Mendes Tavares.
+                    <br> <strong> Criador: Matheus Mendes Tavares <br> Matrícula: 615994 <br> Curso: Ciência da Computação </strong>
+                </p>
+
+            </div>
+
+            <div class="col-5">
+
+                <ul>
+                    <li> <i class="fa-solid fa-user"></i> <span class="sobre-caracteristicas">Redação:</span> Matheus Mendes Tavares</li>
+                    <li> <i class="fa-solid fa-user"></i> <span class="sobre-caracteristicas">Pesquisa:</span> Matheus Mendes Tavares </li>
+                    <li> <i class="fa-solid fa-user"></i> <span class="sobre-caracteristicas">Gerente Geral:</span> Matheus Mendes Tavares </li>
+                </ul>
+
+            </div>         
+            
+            <div class="col-12 sobre-redes-sociais">
+
+                <h5>redes sociais:</h5>
+                <a href="#"> <i class="fa-brands fa-square-facebook"></i> </a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+
+            </div>               
+
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="container">
+
+        <div class="row">
+
+            <!-- Copyright -->
+            <div class="col-9">
+
+                <p class="textesa"> Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC
+                        Minas</strong></p>
+
+            </div>
+
+            <!-- Logo Footer -->
+            <div class="col-3">
+
+                <div class="footer-logo">
+                    <img src="imagens/logo_game.png" class="logo">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!-- Scripts internos -->
+    <script src="funcoes.js"> </script>
+    <script> 
+        preencheLancamentos();
+        preenchePublishers();
+    </script>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>

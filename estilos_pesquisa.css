@@ -1,0 +1,707 @@
+/*-- LOGO imagem --*/
+.logo {
+    width: 50px;
+}
+
+/*-- HEADER --*/
+
+header {
+    background-color: rgb(211, 211, 211);
+    height: 70px;
+    padding: 10px 0px;
+}
+
+/* Logo */
+.header-logo {
+    padding-left: 15px;
+}
+
+/* Menu */
+header #menuToggle {
+    display: none;
+  }
+
+header .header-menu-icon {
+    display: none;
+}
+
+header nav{
+    margin-top: 2px;
+}
+
+header nav p{
+    margin-top: 8px;
+}
+
+header nav a{
+    color: black;
+    font-weight: 500;
+}
+
+header .nav-link {
+    width: 0px;
+}
+
+/* Caixa pesquisa */
+.caixa-pesquisa {
+    margin-top: 5px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+}
+
+.pesquisa-icone {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.caixa-pesquisa input, .caixa-pesquisa button {
+    border-style: none;
+    outline: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.caixa-pesquisa button {
+    margin: 0px;
+    padding: 0px;
+}
+
+.caixa-pesquisa input {
+    line-height: 2;
+}
+
+
+/*-- MAIN --*/
+
+main h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/* Pesquisa Mobile */
+.main-pesquisa-mobile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.caixa-mobile-pesquisa {
+    display: none;
+}
+
+
+/* Pesquisa */
+
+.main-pesquisa{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.main-pesquisa h1{
+    padding-left: 0px;
+}
+
+.pesquisa-imagem{
+    width: 100%;
+    height: 128px;
+}
+
+.main-pesquisa .pesquisa-l1 {
+    padding-top: 30px;
+}
+
+.main-pesquisa .lancamentos-drop {
+    padding-top: 45px;
+    text-align: right;
+}
+
+.main-pesquisa .lancamentos-drop2 .dropdown-toggle::after{
+    margin-left: 3.0em;
+}
+
+ .main-pesquisa .lancamentos-drop .btn {
+    width: 200px;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+}
+
+.main-pesquisa .lancamentos-drop .dropdown-menu {
+    width: 200px;
+}
+
+.main-pesquisa .lancamentos-drop .dropdown-menu .lanc-drop-item-2 {
+    background-color: rgb(230, 230, 230);
+}
+
+.main-pesquisa .lancamentos-drop .dropdown-menu .lanc-drop-item-2:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+.main-pesquisa .card {
+    border: none;
+}
+
+.main-pesquisa .card h5{
+    height: 48px;
+}
+
+.main-pesquisa .card h5.card-pesquisa {
+    margin-bottom: 0px;
+    font-size: 1rem;
+    height: 35px;
+}
+
+.main-pesquisa .card a {
+    color: black;
+}
+
+.main-pesquisa .card img {
+    margin-bottom: 10px;
+}
+
+.main-pesquisa .card-body {
+    padding: 2px;
+    padding-top: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.main-pesquisa .card-nota {
+    /* padding-top: 12px; */
+    padding-right: 3px;
+}
+
+.main-pesquisa .botao-lanc button {
+    margin-top: 35px;
+    float: right;
+    margin-bottom: 35px;
+}
+
+.main-pesquisa .botao-lanc .fa-regular {
+    margin-right: 10px;
+}
+
+
+
+/* Sobre */
+
+.main-sobre{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-sobre h1.title1{
+    padding-left: 0px;
+}
+
+.main-sobre .sobre-sobre{
+    font-size: 0.9rem;
+}
+
+.main-sobre ul {
+    list-style: none;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.main-sobre ul li {
+    margin-bottom: 10px;
+}
+
+.main-sobre .sobre-caracteristicas {
+    font-weight: bolder;
+}
+
+.main-sobre h5 {
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+.main-sobre .sobre-redes-sociais {
+    padding-left: 634px;
+    margin-bottom: 35px;
+}
+
+.main-sobre .sobre-redes-sociais a {
+    font-size: xx-large;
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+/*-- FOOTER --*/
+
+footer {
+    background-color: rgb(221, 221, 221);
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.footer-logo {
+    padding-left: 150px;
+    margin-top: 24px;
+}
+
+
+
+
+
+/*-------------------------------------------*/
+/*-------------- Media Queries --------------*/
+
+/* Versão pouco menor que desktop */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+    /*-- HEADER --*/
+
+    header nav a{
+        font-size: 0.9rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        margin-top: 9px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 0.7rem;
+    }
+
+
+    /*-- MAIN --*/
+
+    /* Destaques */
+    .main-destaques p.destaques-carac-lanc {
+        text-align: left;
+    }
+    
+    .main-destaques p.destaques-carac-publ {
+        float: none;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 530px;
+    }
+
+}/*FIM >=992 e <1200 VERSÃO MEDIA QUERY*/
+
+/* Versão maior de tablets e notebooks*/
+@media screen and (min-width:768px) and (max-width:991px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header nav a{
+        font-size: 0.9rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-dest{
+        display: none;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        margin-top: 9px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 0.45rem;
+    }
+
+    .caixa-pesquisa ::-webkit-input-placeholder{
+        color: transparent;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+
+    /* Pesquisa */
+    .main-pesquisa .lancamentos-drop2 {
+        display: none;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 390px;
+    }
+
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        padding-left: 60px;
+    }
+
+}/*FIM >=768 e <992 VERSÃO MEDIA QUERY*/
+
+/* Versão menor de tablets e maior de smartphones*/
+@media screen and (min-width:576px) and (max-width:767px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header .header-container-nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .header-menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: -2px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    header .header-menu a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .header-menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        line-height: 60px;
+        color: white;
+        z-index: 999;
+    }
+
+    header nav .menu_separator{
+        display: none;
+    }
+
+    header nav .nav-link{
+        color: white;
+        margin: 15px;
+    }
+    
+    header .header-menu-icon i {
+        font-size: 2em;
+    }
+
+    header #menuToggle:checked ~ label i:nth-child(2) {
+      display: block;
+    }
+    header #menuToggle:checked ~ label i:first-child {
+      display: none;
+    }
+    header #menuToggle:not(:checked) ~ label i:first-child {
+      display: block;
+    }
+    header #menuToggle:not(:checked) ~ label i:nth-child(2) {
+      display: none;
+    }
+  
+    header #menuToggle:checked ~ nav {
+        height: 50%;
+    }
+
+    header nav a{
+        font-size: 1.1rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-dest{
+        display: block;
+        margin-top: 60px;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }  
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    .caixa-mobile-pesquisa {
+        display: contents;
+    }
+
+    .caixa-mobile-pesquisa .texto_mobile_pesquisa {
+        width: 90%;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+    /* Pesquisa */
+    .main-pesquisa .lancamentos-drop {
+        display: none;
+    }
+
+    .main-pesquisa .card-nota {
+        text-align: right;
+    }
+
+    .main-pesquisa .pesquisa-imagem {
+        height: 250px;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 15px;
+    }
+
+    .main-sobre .sobre-redes-sociais a {
+        margin-right: 10px;
+    }
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        padding-left: 25px;
+    }
+
+}/*FIM >=576 e <768 VERSÃO MEDIA QUERY*/
+
+/* Versão menor de smartphones*/
+@media screen and (max-width:575px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header .header-container-nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .header-menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: -2px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    header .header-menu a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .header-menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        line-height: 60px;
+        color: white;
+        z-index: 999;
+    }
+
+    header nav .menu_separator{
+        display: none;
+    }
+
+    header nav .nav-link{
+        color: white;
+        margin: 15px;
+    }
+    
+    header .header-menu-icon i {
+        font-size: 2em;
+    }
+
+    header #menuToggle:checked ~ label i:nth-child(2) {
+      display: block;
+    }
+    header #menuToggle:checked ~ label i:first-child {
+      display: none;
+    }
+    header #menuToggle:not(:checked) ~ label i:first-child {
+      display: block;
+    }
+    header #menuToggle:not(:checked) ~ label i:nth-child(2) {
+      display: none;
+    }
+  
+    header #menuToggle:checked ~ nav {
+        height: 50%;
+    }
+
+    header nav a{
+        font-size: 1.1rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-inicio{
+        display: block;
+        margin-top: 160px;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }  
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    .caixa-mobile-pesquisa {
+        display: contents;
+    }
+
+    .caixa-mobile-pesquisa .texto_mobile_pesquisa {
+        width: 70%;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+    main h1 {
+        font-size: 2.0rem;
+    }
+
+    /* Pesquisa */
+    .main-pesquisa .lancamentos-drop {
+        display: none;
+    }
+
+    .main-pesquisa .card-nota {
+        text-align: right;
+    }
+
+    .main-pesquisa .pesquisa-imagem {
+        height: 170px;
+    }
+
+    .main-pesquisa .botao-lanc button {
+        font-size: 10px;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 15px;
+    }
+
+    .main-sobre .sobre-redes-sociais a {
+        margin-right: 10px;
+    }
+
+    .main-sobre h1 {
+        font-size: 1.6rem;
+    }
+
+    .main-sobre ul li {
+        font-size: 0.7rem;
+    }
+
+    .main-sobre .sobre-sobre {
+        font-size: 0.7rem;
+    }
+
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 35px;
+        font-size: 0.65rem;
+    }
+
+    .footer-logo {
+        padding-left: 0px;
+    }
+
+}/*FIM <576 VERSÃO MEDIA QUERY*/

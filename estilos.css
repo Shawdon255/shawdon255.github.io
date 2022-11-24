@@ -1,0 +1,958 @@
+/*-- LOGO imagem --*/
+.logo {
+    width: 50px;
+}
+
+/*-- HEADER --*/
+
+header {
+    background-color: rgb(211, 211, 211);
+    height: 70px;
+    padding: 10px 0px;
+}
+
+/* Logo */
+.header-logo {
+    padding-left: 15px;
+}
+
+/* Menu */
+header #menuToggle {
+    display: none;
+  }
+
+header .header-menu-icon {
+    display: none;
+}
+
+header nav{
+    margin-top: 2px;
+}
+
+header nav p{
+    margin-top: 8px;
+}
+
+header nav a{
+    color: black;
+    font-weight: 500;
+}
+
+header .nav-link {
+    width: 0px;
+}
+
+header .nav-pesquisa {
+    display: none;
+}
+
+/* Caixa pesquisa */
+.caixa-pesquisa {
+    margin-top: 5px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+}
+
+.pesquisa-icone {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.caixa-pesquisa input, .caixa-pesquisa button {
+    border-style: none;
+    outline: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.caixa-pesquisa button {
+    margin: 0px;
+    padding: 0px;
+}
+
+.caixa-pesquisa input {
+    line-height: 2;
+}
+
+
+/*-- MAIN --*/
+
+main h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/* Destaques */
+.main-destaques {
+    background-color: rgb(240, 240, 240);
+}
+
+.titulo-destaque{
+    text-align: center;
+}
+
+#carouselExampleIndicators{
+    min-height: 532px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.destaques-video{
+    width: 100%;
+    height: 450px;
+}
+
+.destaques-carousel-video {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.main-destaques h2{
+    font-weight: 350;
+}
+
+.main-destaques p {
+    font-size: 80%;
+}
+
+.main-destaques p.destaques-p-first {
+    padding-top: 10px;
+}
+
+.main-destaques p.destaques-p-last {
+    padding-bottom: 50px;
+}
+
+.main-destaques p .destaques-caracteristicas {
+    font-weight: bolder;
+}
+
+.main-destaques p.destaques-carac-lanc {
+    text-align: center;
+}
+
+.main-destaques p.destaques-carac-publ {
+    float: left;
+}
+
+.main-destaques p .destaques-avaliacao {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Lançamentos */
+
+.main-lancamentos{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-lancamentos h1{
+    padding-left: 0px;
+}
+
+.lancamentos-imagem{
+    width: 100%;
+    height: 128px;
+}
+
+.main-lancamentos .lancamentos-l1 {
+    padding-top: 30px;
+}
+
+.main-lancamentos .lancamentos-drop {
+    padding-top: 45px;
+    text-align: right;
+}
+
+.main-lancamentos .lancamentos-drop2 .dropdown-toggle::after{
+    margin-left: 3.0em;
+}
+
+ .main-lancamentos .lancamentos-drop .btn {
+    width: 200px;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+}
+
+.main-lancamentos .lancamentos-drop .dropdown-menu {
+    width: 200px;
+}
+
+.main-lancamentos .lancamentos-drop .dropdown-menu .lanc-drop-item-2 {
+    background-color: rgb(230, 230, 230);
+}
+
+.main-lancamentos .lancamentos-drop .dropdown-menu .lanc-drop-item-2:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+.main-lancamentos .card {
+    border: none;
+}
+
+.main-lancamentos .card h5{
+    height: 48px;
+}
+
+.main-lancamentos .card h5.card-lancamento {
+    margin-bottom: 0px;
+    font-size: 1rem;
+    height: 35px;
+}
+
+.main-lancamentos .card a {
+    color: black;
+}
+
+.main-lancamentos .card img {
+    margin-bottom: 10px;
+}
+
+.main-lancamentos .card-body {
+    padding: 2px;
+    padding-top: 10px;
+}
+
+.main-lancamentos .card-nota {
+    /* padding-top: 12px; */
+    padding-right: 3px;
+}
+
+.main-lancamentos .botao-lanc button {
+    margin-top: 35px;
+    float: right;
+    margin-bottom: 35px;
+}
+
+.main-lancamentos .botao-lanc .fa-regular {
+    margin-right: 10px;
+}
+
+
+
+/* Plataformas */
+.plataforma-imagem{
+    width: 100%;
+    height: 186px;
+}
+
+.main-plataformas{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-plataformas h1{
+    padding-left: 0px;
+}
+
+.main-plataformas .card {
+    border: none;
+}
+
+.main-plataformas .card a {
+    color: black;
+    float: right;
+}
+
+.main-plataformas .card-body {
+    padding: 0px;
+}
+
+.main-plataformas .card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-plataformas h6{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.main-plataformas ul{
+    padding-bottom: 0px;
+    list-style-type: square;
+}
+
+.main-plataformas .botao-plat button {
+    margin-top: 35px;
+    float: right;
+    margin-bottom: 35px;
+}
+
+.main-plataformas .botao-plat .fa-regular {
+    margin-right: 10px;
+}
+
+
+/* Publishers */
+.publisher-imagem{
+    width: 100%;
+    height: 186px;
+}
+
+.main-publishers {
+    background-color: rgb(221, 221, 221);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-publishers h1{
+    padding-left: 0px;
+}
+
+.main-publishers .card {
+    border: none;
+    background-color: transparent;
+}
+
+.main-publishers .card a {
+    color: black;
+    float: right;
+}
+
+.main-publishers .card-body {
+    padding: 0px;
+}
+
+.main-publishers .card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-publishers h6{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.main-publishers ul{
+    padding-bottom: 0px;
+    list-style-type: square;
+}
+
+.main-publishers .botao-publ button {
+    margin-top: 35px;
+    float: right;
+    margin-bottom: 35px;
+}
+
+.main-publishers .botao-publ .fa-regular {
+    margin-right: 10px;
+}
+
+/* Sobre */
+
+.main-sobre{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-sobre h1.title1{
+    padding-left: 0px;
+}
+
+.main-sobre .sobre-sobre{
+    font-size: 0.9rem;
+}
+
+.main-sobre ul {
+    list-style: none;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.main-sobre ul li {
+    margin-bottom: 10px;
+}
+
+.main-sobre .sobre-caracteristicas {
+    font-weight: bolder;
+}
+
+.main-sobre h5 {
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+.main-sobre .sobre-redes-sociais {
+    padding-left: 634px;
+    margin-bottom: 35px;
+}
+
+.main-sobre .sobre-redes-sociais a {
+    font-size: xx-large;
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+/*-- FOOTER --*/
+
+footer {
+    background-color: rgb(221, 221, 221);
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.footer-logo {
+    padding-left: 150px;
+    margin-top: 24px;
+}
+
+
+
+
+
+/*-------------------------------------------*/
+/*-------------- Media Queries --------------*/
+
+/* Versão pouco menor que desktop */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+    /*-- HEADER --*/
+
+    header nav a{
+        font-size: 0.9rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        margin-top: 9px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 0.7rem;
+    }
+
+
+    /*-- MAIN --*/
+
+    /* Destaques */
+    .main-destaques p.destaques-carac-lanc {
+        text-align: left;
+    }
+    
+    .main-destaques p.destaques-carac-publ {
+        float: none;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 530px;
+    }
+
+}/*FIM >=992 e <1200 VERSÃO MEDIA QUERY*/
+
+/* Versão maior de tablets e notebooks*/
+@media screen and (min-width:768px) and (max-width:991px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header nav a{
+        font-size: 0.9rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-dest{
+        display: none;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        margin-top: 9px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 0.45rem;
+    }
+
+    .caixa-pesquisa ::-webkit-input-placeholder{
+        color: transparent;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+    /* Destaques */
+    /* .main-destaques p.destaques-carac-lanc {
+        text-align: left;
+    }
+    
+    .main-destaques p.destaques-carac-publ {
+        float: none;
+    } */
+
+    .destaques-carousel-video {
+        padding-bottom: 10px;
+    }
+
+    /* Lançamentos */
+    .main-lancamentos .lancamentos-drop2 {
+        display: none;
+    }
+
+    /* Plataformas */
+    .main-plataformas .card a {
+        margin-bottom: 20px;
+    }
+
+    /* Publishers */
+    .main-publishers .card a {
+        margin-bottom: 20px;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 390px;
+    }
+
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        padding-left: 60px;
+    }
+
+}/*FIM >=768 e <992 VERSÃO MEDIA QUERY*/
+
+/* Versão menor de tablets e maior de smartphones*/
+@media screen and (min-width:576px) and (max-width:767px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header .header-container-nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .header-menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: -2px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    header .header-menu a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .header-menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        line-height: 60px;
+        color: white;
+        z-index: 999;
+    }
+
+    header nav .menu_separator{
+        display: none;
+    }
+
+    header nav .nav-link{
+        color: white;
+        margin: 15px;
+    }
+    
+    header .header-menu-icon i {
+        font-size: 2em;
+    }
+
+    header #menuToggle:checked ~ label i:nth-child(2) {
+      display: block;
+    }
+    header #menuToggle:checked ~ label i:first-child {
+      display: none;
+    }
+    header #menuToggle:not(:checked) ~ label i:first-child {
+      display: block;
+    }
+    header #menuToggle:not(:checked) ~ label i:nth-child(2) {
+      display: none;
+    }
+  
+    header #menuToggle:checked ~ nav {
+        height: 50%;
+    }
+
+    header nav a{
+        font-size: 1.1rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-dest{
+        display: block;
+        margin-top: 60px;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }  
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+    /* Destaques */
+    .main-destaques p.destaques-carac-lanc {
+        text-align: left;
+    }
+    
+    .main-destaques p.destaques-carac-publ {
+        float: none;
+    }
+
+    .destaques-carousel-video {
+        padding-bottom: 10px;
+    }
+
+    /* Lançamentos */
+    .main-lancamentos .lancamentos-drop {
+        display: none;
+    }
+
+    .main-lancamentos .card-nota {
+        text-align: right;
+    }
+
+    .main-lancamentos .lancamentos-imagem {
+        height: 250px;
+    }
+
+    /* Plataformas */
+    .main-plataformas .card a {
+        margin-bottom: 20px;
+    }
+
+    .main-plataformas .plataforma-imagem {
+        display: none;
+    }
+
+    /* Publishers */
+    .main-publishers .card a {
+        margin-bottom: 20px;
+    }
+
+    .main-publishers .publisher-imagem {
+        display: none;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 15px;
+    }
+
+    .main-sobre .sobre-redes-sociais a {
+        margin-right: 10px;
+    }
+
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        padding-left: 25px;
+    }
+
+}/*FIM >=576 e <768 VERSÃO MEDIA QUERY*/
+
+/* Versão menor de smartphones*/
+@media screen and (max-width:575px){
+
+    /*-- HEADER --*/
+
+    header{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width:100% !important;
+    }
+
+    header .header-container-nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .header-menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: -2px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    header .header-menu a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .header-menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        line-height: 60px;
+        color: white;
+        z-index: 999;
+    }
+
+    header nav .menu_separator{
+        display: none;
+    }
+
+    header nav .nav-link{
+        color: white;
+        margin: 15px;
+    }
+    
+    header .header-menu-icon i {
+        font-size: 2em;
+    }
+
+    header #menuToggle:checked ~ label i:nth-child(2) {
+      display: block;
+    }
+    header #menuToggle:checked ~ label i:first-child {
+      display: none;
+    }
+    header #menuToggle:not(:checked) ~ label i:first-child {
+      display: block;
+    }
+    header #menuToggle:not(:checked) ~ label i:nth-child(2) {
+      display: none;
+    }
+  
+    header #menuToggle:checked ~ nav {
+        height: 60%;
+    }
+
+    header nav a{
+        font-size: 1.1rem;
+    } 
+
+    header nav p{
+        font-size: 0.9rem;
+    }     
+
+    header nav .nav-dest{
+        display: block;
+        margin-top: 60px;
+    }
+
+    header nav .nav-dest-sep{
+        display: none;
+    }  
+
+    /* Caixa pesquisa */
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    
+    /*-- MAIN --*/
+
+    main{
+        margin-top: 70px;
+    }
+
+    main h1 {
+        font-size: 2.0rem;
+    }
+
+    /* Destaques */
+    .main-destaques p.destaques-carac-lanc {
+        text-align: left;
+    }
+    
+    .main-destaques p.destaques-carac-publ {
+        float: none;
+    }
+
+    .destaques-carousel-video {
+        padding-bottom: 10px;
+    }
+
+    .main-destaques .destaques-video {
+        height: 220px;
+    }
+
+    .main-destaques h2 {
+        font-size: 1.7rem;
+    }
+
+    /* Lançamentos */
+    .main-lancamentos .lancamentos-drop {
+        display: none;
+    }
+
+    .main-lancamentos .card-nota {
+        text-align: right;
+    }
+
+    .main-lancamentos .lancamentos-imagem {
+        height: 170px;
+    }
+
+    .main-lancamentos .botao-lanc button {
+        font-size: 10px;
+    }
+
+    /* Plataformas */
+    .main-plataformas .card a {
+        margin-bottom: 20px;
+    }
+
+    .main-plataformas .plataforma-imagem {
+        display: none;
+    }
+
+    .main-plataformas .botao-plat button {
+        font-size: 10px;
+    }
+
+    /* Publishers */
+    .main-publishers .card a {
+        margin-bottom: 20px;
+    }
+
+    .main-publishers .publisher-imagem {
+        display: none;
+    }
+
+    .main-publishers .botao-publ button {
+        font-size: 10px;
+    }
+
+    /* Sobre */
+    .main-sobre .sobre-redes-sociais {
+        padding-left: 15px;
+    }
+
+    .main-sobre .sobre-redes-sociais a {
+        margin-right: 10px;
+    }
+
+    .main-sobre h1 {
+        font-size: 1.6rem;
+    }
+
+    .main-sobre ul li {
+        font-size: 0.7rem;
+    }
+
+    .main-sobre .sobre-sobre {
+        font-size: 0.7rem;
+    }
+
+
+    /*-- FOOTER --*/
+
+    footer p {
+        margin-top: 35px;
+        font-size: 0.65rem;
+    }
+
+    .footer-logo {
+        padding-left: 0px;
+    }
+
+}/*FIM <576 VERSÃO MEDIA QUERY*/
