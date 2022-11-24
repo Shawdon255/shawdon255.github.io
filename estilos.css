@@ -822,7 +822,7 @@ footer p {
     }
   
     header #menuToggle:checked ~ nav {
-        height: 60%;
+        height: 80%;
     }
 
     header nav a{
